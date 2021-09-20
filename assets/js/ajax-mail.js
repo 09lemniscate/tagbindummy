@@ -140,7 +140,7 @@ $(document).ready(function () {
       processData: !1,
       data: '{"source":"' + t + '","first_name":"' + e + '","last_name":"' + n + '","email":"' + a + '"}',
       success: function (e) {
-        $("#pdfForm").modal("hide"), window.location.href = "http://tagbin.in/assets/images/case-studies/digital/Tagbin-Project-IFFI-2019-Experience-Zone.pdf"
+        $("#pdfForm").modal("hide"), window.location.href = "https://09lemniscate.github.io/assets/images/case-studies/digital/Tagbin-Project-IFFI-2019-Experience-Zone.pdf"
       }
     };
     $.ajax(s).done(function (e) {
