@@ -1,0 +1,357 @@
+.bg-about-us {
+    background: rgba(0, 0, 0, 0) url(../images/about/about-Banner.png) no-repeat scroll center center / cover;
+}
+.pl-0 {
+    padding-left: 0px !important;
+}
+.funfact-area .single-fact:first-child .count:after {
+    content: "" !important;
+}
+.privacy-policy .about-us-content p {
+    margin-bottom: 20px;
+}
+.privacy-policy .about-us-content ul {
+    padding-left: 25px;
+    margin-bottom: 20px;
+    list-style-type: disc;
+}
+
+/*---------------------
+  19. Careers area
+-------------------------*/
+.bg-light-gray {
+    background: #f5f5f5;
+}
+.careers-html .blog-info {
+    flex-direction: column;
+    justify-content: center;
+}
+.careers-html .blog-info h2 {
+    font-size: 1.9em;
+    margin-bottom: 20px;
+    font-family: "Quicksand";
+    color: #4c6665;
+}
+.about-us-content h4,
+.guest-post-html h4 {
+    margin-bottom: 30px;
+    padding: 0px 2em;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.career-form {
+    margin-bottom: 20px;
+}
+.career-form,
+.col-inl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+label.mr-sm-2 {
+    font-size: 1.6em;
+}
+.col-auto.col-inl.my-1 {
+    width: 50%;
+}
+.col-auto.col-inl.my-1 label {
+    width: 40%;
+}
+select#inlineFormCustomSelect {
+    border: 0px;
+    border-bottom: 1px solid;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4c6665;
+}
+.js .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    max-width: 100%;
+    font-size: 1rem;
+    /* 20px */
+    font-weight: 500;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+    border-radius: 23px;
+    /* 10px 20px */
+}
+
+.col-auto.my-1 {
+    margin: 0px 10px;
+}
+
+.careers-html button.btn.btn-primary {
+    border: 1px solid #00aeef;
+    background: #fff;
+    color: #00aeef;
+    border-radius: 21px;
+    padding: 11px 51px;
+    margin-bottom: 10px;
+}
+.careers-html button.btn.btn-primary:hover {
+    color: #fff;
+    background-color: #00aeef;
+}
+
+.no-js .inputfile + label {
+    display: none;
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    /* 4px */
+    margin-right: 0.25em;
+    /* 4px */
+}
+
+/* style 1 */
+
+.inputfile-1 + label {
+    color: #fff;
+    background-color: #00aeef;
+}
+
+.inputfile-1:focus + label,
+.inputfile-1.has-focus + label,
+.inputfile-1 + label:hover {
+    background-color: #00aeef;
+    opacity: 0.6;
+}
+#accordion .panel {
+    border: 1px solid #eee;
+    box-shadow: none;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+#accordion .panel-heading {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+#accordion .panel-title a {
+    display: block;
+    padding: 15px 21px 15px 50px;
+    background: #f5f5f5;
+    font-size: 16px;
+    font-weight: 600;
+    color: #4c6665;
+    border: none;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+#accordion .panel-title a.collapsed {
+    background: #f5f5f5;
+    color: #444;
+    border-top: none;
+}
+#accordion .panel-title a.collapsed:hover {
+    color: #4c6665;
+}
+#accordion .panel-title a:before,
+#accordion .panel-title a.collapsed:before {
+    content: "\f00d";
+    font-family: "FontAwesome";
+    font-weight: 100;
+    font-size: 18px;
+    color: #4c6665;
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    transition: all 0.3s ease 0s;
+}
+#accordion .panel-title a.collapsed:before {
+    content: "\f067";
+}
+#accordion .panel-body {
+    padding: 20px;
+    background: #fff;
+    font-size: 14px;
+    color: #fff;
+    line-height: 25px;
+    border-top: none;
+    border: 1px solid #4c6665;
+    position: relative;
+    margin-top: 5px;
+}
+#accordion .panel-body h3,
+#accordion .panel-body h5 {
+    margin-bottom: 20px;
+}
+#accordion .panel-body p {
+    margin-bottom: 30px;
+}
+/*---------------------
+  20. Careers area
+-------------------------*/
+.bg-contact-us {
+    background: rgba(0, 0, 0, 0) url(../images/custom/contact-Banner.png) no-repeat scroll center center / cover;
+}
+.contact-us-html .single-communication,
+.single-communication .c-row {
+    display: flex;
+}
+.c-row {
+    margin-bottom: 30px;
+}
+.contact-us-html .communication-text {
+    padding-left: 24px;
+    padding-top: 9px;
+}
+.contact-us-html .single-communication .communication-icon {
+    width: 20%;
+}
+.tag-map {
+    padding: 0px;
+}
+.tag-map iframe {
+    width: 100%;
+    height: 400px;
+}
+/*---------------------
+  21. Careers area
+-------------------------*/
+.guest-content {
+    padding: 0px 40px;
+}
+.guest-post-html .blog__area a {
+    color: inherit;
+}
+.guest-post-html .blog__area ul li,
+.service-digital-museums .blog__area ul li {
+    list-style-type: disc;
+    font-weight: 500;
+    font-family: "Quicksand";
+    color: #4d4d4d;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+.guest-post-html .blog__area ol li {
+    list-style: decimal;
+}
+.guest-post-html .blog__area h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 30px 0px 10px;
+}
+
+.guest-post-html .blog__area li ol {
+    margin-left: 42px;
+}
+/*---------------------
+  21. News Media
+-------------------------*/
+/* .news-and-media-html a{
+    color: inherit;
+} */
+.news-and-media-html .blog__details {
+    text-align: center;
+}
+.news-and-media-html .blog__details img {
+    height: 64px;
+    text-align: center;
+    margin: auto;
+    width: auto;
+}
+.news-and-media-html .blog__details p {
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+.news-and-media-html .blog__details p a {
+    color: #00aeef;
+    text-align: center;
+}
+/*---------------------
+  22. Culture
+-------------------------*/
+.bg-heritage {
+    background: rgba(0, 0, 0, 0) url(../images/industry/heritage-and-culture/heritage-Banner.png) no-repeat scroll
+        center center / cover;
+}
+/*---------------------
+  23. Tourism
+-------------------------*/
+.bg-tourism {
+    background: rgba(0, 0, 0, 0) url(../images/industry/Tourism/Header-Banner.png) no-repeat scroll center center /
+        cover;
+}
+/*---------------------
+  23. Services
+-------------------------*/
+.bg-digital-museums {
+    background: rgba(0, 0, 0, 0) url(../images/services/Digital-Museum/Top-Banner.png) no-repeat scroll center center /
+        cover;
+}
+.bg-smart-government {
+    background: rgba(0, 0, 0, 0) url(../images/services/Smart-Govt-Solutions/Header-Banner.jpg) no-repeat scroll center
+        center / cover;
+}
+.bg-erp {
+    background: rgba(0, 0, 0, 0) url(../images/services/ERP/Header-Image.png) no-repeat scroll center center / cover;
+}
+.bg-projection-mapping {
+    background: rgba(0, 0, 0, 0) url(../images/services/Projection-Mapping-Shows/Header-Banner.png) no-repeat scroll
+        center center / cover;
+}
+.bg-experience-center {
+    background: rgba(0, 0, 0, 0) url(../images/services/Experience-Centers/Header-Banner.jpg) no-repeat scroll center
+        center / cover;
+}
+.service-digital-museums .blog__area ul li {
+    margin-bottom: 10px;
+}
+
+/**erp*/
+.feat-desc--img {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+.feat-desc--txt {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.feat-desc--txt h3 {
+    margin: 10px 0px;
+}
+.feat-desc--txt h1 {
+    margin: 10px 0px;
+}
+.feat-desc--txt ul {
+    margin: 20px 0px;
+    list-style: inside;
+    font-size: 1.15rem;
+}
+.feat-desc--txt p {
+    margin: 30px 0px;
+    font-size: 1.15rem;
+}
